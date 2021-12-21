@@ -33,3 +33,13 @@ body {
 .btn-outline-light:hover {
     background-color: rgba(255, 255, 255, 0.372);
 }
+
+
+.btn-primary {
+    background-color: #00bbc9 ;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #049ba5;
+}
