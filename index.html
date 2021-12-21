@@ -27,29 +27,36 @@
 
 
         <!-- This is the Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo-dans-meat-yogurt.svg" alt="" width="155" height="auto" class="d-inline-block align-text-top">
-                  </a>
+                    <img src="images/logo-dans-meat-yogurt.svg" alt="" width="135" height="auto"
+                        class="d-inline-block align-text-top">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <!-- Nav Button Dropdown -->
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown btn btn-outline-light">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0 float-right">
+                        <li class="nav-item dropdown btn btn-outline-light" style="width:120px">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Flavors</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Ham</a></li>
                                 <li><a class="dropdown-item" href="#">Beef</a></li>
-                                <li><a class="dropdown-item" href="#">Spicy Sausage</a></li>
+                                <li><a class="dropdown-item" href="#">Chicken</a></li>
+                                <li><a class="dropdown-item" href="#">Fish</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item btn btn-outline-light ml-3">
-                            <a class="nav-link" href="#">Contact</a>
+
+                        <!-- Nav Button -->
+                        <li class="nav-item btn btn-outline-light ml-md-4" style="width:120px">
+                            <a class="nav-link text-white" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
