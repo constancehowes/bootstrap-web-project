@@ -12,3 +12,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
+
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+}
